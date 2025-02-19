@@ -73,6 +73,7 @@ const PurchaseOrValidate = ({card}) => {
 
       const response = await axios.post('https://giftcards-api.onrender.com/validate', data);
 
+
       console.log('Response:', response.data);
      
     } catch (error) {
