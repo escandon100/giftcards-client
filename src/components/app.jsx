@@ -1,6 +1,7 @@
 import{ React}from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import Layout from "./layout/layout";
+import ErrorPage from "./errorpage/errorpage";
 import "./../styles/index.scss"
 const App = () => {
   
